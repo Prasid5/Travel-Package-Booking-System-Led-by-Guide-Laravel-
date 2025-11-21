@@ -1,0 +1,123 @@
+.background{
+    /* border:1px solid black; */
+    height:677px;
+    width:100%;
+    margin:0px;
+    
+    background-image:url("/registerimg/register.png");
+    background-repeat:no-repeat;
+    background-position:center;   
+}
+.opacity{
+    /* border:1px solid black; */
+    height:677px;
+    width:100%;
+    margin:0px;
+    background-color: rgba(0,0,0,0.75);    
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+} 
+/*........................................LOGIN BOX...................................................*/
+.background>.opacity>.container{
+    height:300px;
+    width:395px;
+    border:4px solid white;
+    border-radius: 20px; 
+    color:white;
+
+    display:flex;
+    flex-wrap:wrap;
+    align-content:space-around;
+    justify-content:center;
+}
+.header{
+    height:50px;
+    width:100%;
+
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+
+    font-size:28px;
+    font-family:Pangea Afrikan Text Trial;
+    font-weight:550;
+
+
+}
+/*........................................FORM BOX...................................................*/
+.form{
+    height:230px;
+    width:90%;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;  
+}
+
+.form input,select{
+    height:30px;
+    width:325px;
+    color:white;
+    padding-left:15px;
+
+    border:1px solid white;
+    border-radius:10px;
+    background-color:transparent;
+}
+
+input::placeholder{/*TEXT PROPERTIES*/
+    margin-left:15px;
+    color:white;
+    font-size:16px;
+    font-family:Pangea Afrikan Text Trial;
+}
+/*........................................Dropdown Box...................................................*/
+select {
+    height:33px;
+    width:344px;
+
+    font-size:16px;
+    font-family:Pangea Afrikan Text Trial;
+}
+
+select option{
+    background-color:black;
+    color:white;
+}
+
+/*........................................Submit...................................................*/
+input[type="submit"]{
+    height:33px;
+    width:344px;
+    margin-top:10px;
+    
+    font-family:Pangea Afrikan Text Trial;
+    font-size:18px;
+    font-weight:bold;
+
+    border:2px solid white;
+    border-radius:10px;
+    background-color:transparent;
+}
+input[type="submit"]:hover{
+    color:black;
+    background-color:white;
+}
+/*........................................Have account...................................................*/
+a{  height:15px;
+    width:344px;
+    margin:5px auto;
+    display:inline-block;
+
+    color:white;
+    font-size:11px;
+    text-align:center;
+    text-decoration:none;
+    font-family:Pangea Afrikan Text Trial;
+}
+
+a:hover{
+    text-decoration:underline;
+}

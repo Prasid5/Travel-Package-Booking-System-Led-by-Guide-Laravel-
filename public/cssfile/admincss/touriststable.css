@@ -1,0 +1,43 @@
+.touriststable {
+    width: 80%;
+    margin: 50px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.touriststable table {
+    border: 3px solid black;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.touriststable thead {
+    background-color: rgb(147, 147, 147);
+    border: 3px solid black;
+
+}
+
+.touriststable tr:nth-child(even) {
+    background-color: #e6e6e6;
+}
+
+.touriststable tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.touriststable td {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 16px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.touriststable thead td{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+    color: white;
+    font-weight:bold;
+}

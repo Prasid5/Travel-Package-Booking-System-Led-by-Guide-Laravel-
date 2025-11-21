@@ -1,0 +1,106 @@
+.footer{
+    margin:0px;
+    width:100%;
+    height:350px;
+    background-color:rgba(0,0,0,0.87);
+
+    display:flex;
+    flex-wrap: wrap;
+    flex-wrap:column;
+    align-items:space-between;
+    justify-content:space-around;
+    position:sticky;
+}
+.footer>.container1,.container2,.container3{
+    margin:5px 0px 5px;
+    width:485px;
+    height:300px;
+}
+.footer>.container1 span{
+    height:20px;
+    width:485px;
+    margin:0px auto;
+    padding:0px;
+
+    font-size:15px;
+    font-family:Calibri;
+    font-weight:bold;
+    text-align:center;
+    text-decoration:underline;
+    color:white;
+}
+.footer>.container1>.mainbox{
+    height:90px;
+    width:250px;
+    margin:0px 125px 10px;
+
+    background-image: url(/footerimg/Logo3.png);
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:center center;
+}
+.footer>.container1>.box{
+    height:75px;
+    width:100px;
+    border:2px solid white;
+    margin:3px 60px 5px;
+}
+.contactus{
+    height:275px;
+    width:400px;
+    margin:25px auto 10px;
+    border-left:1px solid white;
+    border-right:1px solid white;
+}
+.footer>.container2>.contactus>span{
+    font-size:20px;
+    font-family:Pangea Afrikan Text Trial;
+    font-weight:bold;
+    text-align:center;
+    color:white;
+    margin:0px auto 20px;
+    display:block;
+}
+.footer>.container2>.contactus p{
+    font-size:16px;
+    font-family:Raleway;
+    text-align:center;
+    line-height:30px;
+    color:white;
+    margin:20px auto;
+    display:block;
+}
+.footer>.container3>.connect>.icon{
+    height:70px;
+    width:275px;
+    margin:5px auto 0px;
+
+    background-image: url(/footerimg/Icons.png);
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:center center;
+}
+.footer>.container3>.connect>span{
+    font-size:20px;
+    font-family:Pangea Afrikan Text Trial;
+    font-weight:bold;
+    text-align:center;
+    color:white;
+    margin:0px auto;
+    display:block;
+}
+.footer>.disclaimer{
+
+    width:1450px;
+    height:30px;
+    margin:0px auto;
+    padding-top:10px;
+
+    font-size:15px;
+    font-family:Calibri;
+    text-align:center;
+    color:white;
+}
+input:placeholder{
+    color:white;
+}
