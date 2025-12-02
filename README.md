@@ -3,12 +3,11 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" /> 
-    <title>Explore Nepal — Laravel Travel Package Booking System</title>
 </head>
 <body>
     <header> 
         <h1>Explore Nepal — Laravel Travel Package Booking System</h1> 
-        <p> <strong>Explore Nepal</strong> is a Laravel-based travel package booking system built for tourism companies to manage travel packages, guide coordination, and tourist bookings. The platform supports three roles — <em>Admin</em>, <em>Guide</em>, and <em>Tourist</em> — and includes features such as dynamic pricing, discounts, and commission handling to make operations transparent and flexible. </p> 
+        <p> <strong>Explore Nepal</strong> is a Laravel-based travel package booking system built for tourism companies to manage travel packages, guide coordination, and tourist bookings.                         The platform supports three roles — <em>Admin</em>, <em>Guide</em>, and <em>Tourist</em> — and includes features such as dynamic pricing, discounts, and commission                             handling to make operations transparent and flexible. </p> 
     </header> 
     <nav> 
         <h2>Table of Contents</h2> 
@@ -17,10 +16,6 @@
             <li><a href="#system-highlights">System Highlights</a></li>
             <li><a href="#tech-stack">Technology Stack</a></li>
             <li><a href="#installation">Installation &amp; Setup</a></li>
-            <li><a href="#usage">Usage</a></li>
-            <li><a href="#contributing">Contributing</a></li>
-            <li><a href="#license">License</a></li>
-            <li><a href="#contact">Contact</a></li>
         </ul> 
     </nav> 
     <main> 
@@ -91,6 +86,4 @@
     <li>Node.js &amp; npm (for compiling assets)</li>
     <li>Visual Studio Code (recommended)</li>
   </ul>
-
-  <h3>Quick Start</h3>
-  <pre><code>
+</section>
